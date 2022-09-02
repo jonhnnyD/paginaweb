@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>producto </th>
+            <th>precio </th>
+        </tr>
+        <tr>
+            <td>bicicleta</td>
+            <td>150000$</td>
+        </tr>
+        <tr>
+            <td>venzo</td>
+            <td>150$</td>
+        </tr>
+        <tr>
+            <td>matias caula</td>
+            <td>gratis</td>
+        </tr>
+    </table>
+    <!-- ul lista no ordenada-->
+    <ul>
+        <li>Elemntio 1</li>
+        <li>Elemntio 2</li>
+        <li>Elemntio 3</li>
+        <li>Elemntio 4</li>
+    </ul>
+
+    <!-- ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemntio 1</li>
+        <li>Elemntio 2</li>
+        <li>Elemntio 3</li>
+        <li>Elemntio 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman">sub elemento 1</li>
+                <li style="list-style-type: lower-roman">sub elemento 2</li>
+                <li style="list-style-type: lower-roman">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="pepito" type="texts" id="nombre" name="nombre" placeholder="Juan" />
+        <br>
+        <label for="perez">Apellido</label>
+        <input value="garzon" type="text" id="apellido" name="apellido" placeholder="Perez" />
+        <br>
+        <label for="comentario">Comentarios</label><br>
+        <textarea cols="30" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">juanito quiere mas caramelos</textarea>
+        <br>
+        <button type="button">Enviar</button><!--se le dice que hacer con java script-->
+        <button type="reset">Resst</button>
+        <button type="submit">subir</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>mi quinto heading</h5>
+    <h6>Chanchitop feliz</h6>
+    <p>Chanchito feliz esta muy feliz.</p>
+    <p>chanchito triste esta muy triste</p><!-- p hace referencia al parrafo o texto a mostrar-->
+    <hr>
+    <h2>Chanchito felipe</h2>
+    <p>
+        Este texto es <span style="color:blue">mucho mas largo</span><!--span es para denotar o resaltar una parte del texto-->
+        y es para mostrar <br> <!-- br es para salto de linea -->
+        la etiqueta de span 
+    </p>
+    <!--Comentarios para otros o desarrollador(no aparece en explorador)-->
+    <a href="https://www.google.com">Ir a google</a> <br><!-- en este caso abrira sobre la misma ventana-->
+    <!--el hiper vinco o anconr "a" es para naveegar 
+        hacia otro lado o en nuestra propia web-->
+    <a target="_blank" href="https://www.google.com">Ir a google nueva ventana</a><br>
+    <!--_blank una pestaña-->
+    <img src="img/carita.png" width="400" /><br>
+    
+</body>
+</html>
