@@ -1,5 +1,25 @@
-
-.principal {color: rgb(80, 38, 107); font-family: 'Pacifico', cursive;; font-size: 50px;}
-.redes {color: blueviolet; font-family: 'Pacifico', cursive;}
+.title {
+  animation: change 7s infinite alternate linear;
+}
+@keyframes change {
+  0%{
+    background: #ee6050;
+  }
+  25%{
+    background: #60d394;
+  }
+  50%{
+    background: #aaf683;
+  }
+  75%{
+    background: #ffd97d;
+  }
+  100%{
+    background: #ff9b85;
+  }
+}
+.principal {color: rgb(80, 38, 107); font-family: 'Pacifico', cursive;; font-size: 70px;}
+.redes {color: blueviolet; font-family: 'Pacifico', cursive;font-size: 35px;}
 .data-list {font-family: 'Oswald', sans-serif;}
 .info {font-family:'Bebas+Neue', sans-serif ;}
+.border{ border-radius: 50%;}
