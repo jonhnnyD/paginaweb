@@ -18,8 +18,18 @@
     background: #ff9b85;
   }
 }
-.principal {color: rgb(80, 38, 107); font-family: 'Pacifico', cursive;; font-size: 70px;}
+.principal {
+  color: rgb(80, 38, 107); font-family: 'Pacifico', cursive;; font-size: 70px;
+}
 .redes {color: blueviolet; font-family: 'Pacifico', cursive;font-size: 35px;}
 .data-list {font-family: 'Oswald', sans-serif;}
 .info {font-family:'Bebas+Neue', sans-serif ;}
-.border{ border-radius: 50%;}
+.border{
+  padding:5px 5px 20px 25px ;
+  border-radius: 50%;}
+.final{
+  margin-left: 0%;
+  background: black;}
+#contacto {
+  margin-left: 4px;
+  color: beige;}
