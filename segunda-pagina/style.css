@@ -1,0 +1,13 @@
+body{margin: 0; padding: 0; }
+#contenedor {
+    
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.masterupbox{
+   background-color: rgba(43, 39, 39, 0.67)
+}
