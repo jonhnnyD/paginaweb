@@ -1,4 +1,6 @@
-body{margin: 0; padding: 0; }
+body{
+    margin: 0; padding: 0; 
+}
 #contenedor {
     
     height: 56px;
@@ -6,8 +8,26 @@ body{margin: 0; padding: 0; }
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 .masterupbox{
-   background-color: rgba(43, 39, 39, 0.67)
+   background-color: rgba(177, 69, 69, 0.67)
+}
+.inicio {
+    font-size: 35px; font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+a[href=""]{
+    text-decoration: none;
+    color: black;
+}
+.name{
+    padding-left: 40%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    
+}
+.profile{
+    border-radius: 50%;
+    padding-left: 3px;
+
 }
