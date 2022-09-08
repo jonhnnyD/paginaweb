@@ -12,6 +12,8 @@
 }
 #pantalla-dividida{
     display: flex;
+    width: 100%;
+    margin-top: 0%;
 }
 .web{
     color: bisque;
@@ -19,4 +21,23 @@
 .email{
     text-decoration: none;
     color: rgba(4, 61, 56, 0.822);
+}
+
+h2{
+    width: auto;
+    margin-top: 60px;
+    margin-left: 150px;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 26px;
+    width: 50%;
+    margin-top:25px;
+    margin-left:40%;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    text-transform: uppercase;
 }
