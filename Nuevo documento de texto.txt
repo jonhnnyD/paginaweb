@@ -1,0 +1,3 @@
+font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Edu SA Beginner', cursive;
