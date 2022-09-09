@@ -24,9 +24,9 @@
 }
 
 h2{
-    width: auto;
+    width: 60%;
     margin-top: 60px;
-    margin-left: 150px;
+    margin-left: 20%;
     font-size: 80px;
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
@@ -34,7 +34,7 @@ h2{
 }
 p{
     font-size: 26px;
-    width: 50%;
+    width: 60%;
     margin-top:25px;
     margin-left:40%;
     font-family: 'Bebas Neue', cursive;
