@@ -27,17 +27,19 @@ h2{
     width: 60%;
     margin-top: 60px;
     margin-left: 20%;
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     margin-bottom: 20px;
+    text-shadow:5px 5px 10px #92703c;
 }
 p{
-    font-size: 26px;
+    font-size: 35px;
     width: 60%;
     margin-top:25px;
     margin-left:40%;
     font-family: 'Bebas Neue', cursive;
     margin: auto;
     text-transform: uppercase;
+    text-shadow:5px 5px 10px #92703c;
 }
