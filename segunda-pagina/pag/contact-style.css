@@ -13,17 +13,33 @@
     box-shadow:  15px 15px 30px #aa7e22,
     15px -15px 30px #ffc634;
 }
+#sombra{
+    text-shadow:5px 5px 10px #92703c;
+}
 .contacto{
+    box-sizing: border-box;
     text-align: center;
-    padding-top: 10px;
-    margin-bottom: 5px;
+    padding-top: 15px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
+    font-size: 42px;
 }
 .email{
-    text-shadow:5px 5px 10px #92703c;
-    margin-top: 5px;
+    margin-left: 7%;
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 25px;
+}
+.name{
+    width: 30%;
+    margin-left: 105px;
+    margin-top: -45px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20px;
+    color: rgb(83, 64, 64);
+}
+.pon{
     text-align: center;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: -25px;
+    text-decoration: solid;
 }
