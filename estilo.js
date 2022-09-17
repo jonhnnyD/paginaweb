@@ -1,0 +1,1 @@
+alert("Esta web no es responsiva de momento,estamos trabajando para que lo sea")
